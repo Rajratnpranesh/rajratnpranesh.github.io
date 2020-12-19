@@ -1,2 +1,2 @@
-# mimansajaiswal.github.io
-Personal Website
+# rajratnpranesh.github.io
+This is my personal website.
