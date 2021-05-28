@@ -64,8 +64,9 @@
 				</span>
               </p>
 	    <p>
-		   My current research work is focused on training and improving NLP models for various tasks that involve language models, telemedical facilities, multimodal learning, social computing and core linguistics. 
-		    I love teaching machines through large textual, speech, visual and/or multimodal datasets. I am currently working on research projects focusing on health informatics and social informatics to progress my research on robust, trustworthy and sustainable data-driven ML systems with a broad application area in the real-world. My latest research question: "<span style="color:red;font-weight: bold;">Can we build a multimodal framework without using multi models?</span>".
+		   My current research work is focused on training and improving NLP models for various tasks that involve language models, telemedical facilities, 
+		    learning, social computing and core linguistics. 
+		    I love teaching machines through large textual, speech, visual and/or multimodal datasets. I am currently working on research projects focusing on health informatics and social informatics to progress my research on robust, trustworthy and sustainable data-driven ML systems with a broad application area in the real-world.
 		    I am open for suggestion/discussions so do reach out to me :)
 	     </p>	    
               <p>
@@ -95,25 +96,61 @@
         <div class="container publications-inner">
           <h1 class="heading-m"> Publications</h1>
           <div class="submitted">
-            <h2 class="heading-s ml-1">Submitted papers</h2>
+            <h2 class="heading-s ml-1">Current Research Projects</h2>
             <ul>
               <li>
                 <div class="collapsible">
-                  <p><span class="bold"> CMTA: COVID-19 Misinformation Multilingual Analysis on Twitter </span></p>
+                  <p><span class="bold"> Towards Noise Tolerant Text Classification Model via Meta-Learning </span></p>
                   <button class="collapsible-btn">[TLDR]</button>
-                  <p><span class="bold">Raj Ratn Pranesh</span>, Mehrdad Farokhenajd, Ambesh Shekhar, Genoveva Vargas-Solar
+                  <p><span class="bold">Raj Ratn Pranesh</span> 
                   <br>VLDB, 2020<br>
-                    <a href="https://drive.google.com/file/d/1bB1dwH2BFgYZf8Ocv3Q9ercTDxtJCzsC/view?usp=sharing">Paper</a>
+                    <a href=""></a>
                   </p></div>
-                <div class="content"> <p class="py-025"> <span class ="bold">TLDR: </span>This paper presents a multilingual COVID-19 related tweet analysis method, CMTA, that uses BERT, a deep learning model for multilingual tweet misinformation detection and classification. CMTA extracts features from multilingual textual data, which is then categorized into specific information classes. Classification is done by a Dense-CNN model trained on tweets manually annotated into information classes (i.e., ’false’, ’partly false’, ’misleading’).
+                <div class="content"> <p class="py-025"> <span class ="bold">TLDR: </span> Despite significant advancements of deep neural networks (DNNs) in text classification tasks, one of the most crucial factors behind achieving human-level accuracy is the quality of large manually annotated training data, which are time-consuming and costly to accumulate. There are several low-cost data repositories available on the internet, but they often bear incorrect labels. But DNNs can easily overfit to label noise when trained on noisily labeled datasets, resulting in performance deterioration. Therefore, to address this problem, we present a noise-tolerant model-agnostic training algorithm. In this method, prior to the conventional gradient update, a meta-learning update is done by simulating the actual training using each set of generated synthetic noisy labels. Training on randomized synthetic noise helps the model to not overfit to any specific label noise which consequently, enhances its robustness to label noise present in the dataset. We perform extensive experiments on multiple massive text classification dataset and show that through our method DNNs learn finer textual representation making them robust to erroneous labels. </p></div>
                 </p> </div>
-              </li>       
+              </li> 
+	      
+              <li>
+                <div class="collapsible">
+                  <p><span class="bold"> RMHIDD: A Reddit Mental Health Intervention Dialogue Dataset </span></p>
+                  <button class="collapsible-btn">[TLDR]</button>
+                  <p><span class="bold">Raj Ratn Pranesh</span>, Ambesh Shekhar
+                  <br>VLDB, 2020<br>
+                    <a href=""></a>
+                  </p></div>
+                <div class="content"> <p class="py-025"> <span class ="bold">TLDR: </span> In the modern human society, mental health is one of the most critical concern. Over past many years a large proportion of population has been affected with serious mental disorders. People with mental illness require effective mental health intervention and treatment as early as possible to decrease the chances of any further mental defilement. In this paper, we present RMHIDD, a new dialogue corpus for automated mental health intervention. The dataset is consists of over 200K Reddit posts collected from 18 different sub-Reddit groups with each post  consisting of sequential conversation between the users. On this dataset, we also trained various models for dialogue generation task, namely-'Seq2Seq', 'BART' and 'DialoGPT'. In our analysis we found that the BART model outperformed other models with a higher Perplexity score of 19.7. We also found that the DialoGPT model surpasses other models on various machine translation evaluation metrics. The results generated from various language models were promising and showed the possibility of building automated mental health intervention.</p></div>
+              </li> 	      
+	      
             </ul>
           </div>
 
           <div class="accepted">
             <h2 class="heading-s ml-1">Accepted Publications</h2>
             <ul>
+		  
+              <li>
+                <div class="collapsible">
+                  <p><span class="bold"> CMTA: COVID-19 Misinformation Multilingual Analysis on Twitter </span></p>
+                    <button class="collapsible-btn">[TLDR]</button>
+                  <p><span class="bold">Raj Ratn Pranesh</span>, Mehrdad Farokhenajd, Ambesh Shekhar, Genoveva Vargas-Solar
+                    <br>ACL, 2021<br>
+                    <a href="">Paper</a>
+                    <!--<span>||</span><a href="">Dataset</a>-->
+                  </p></div>
+                <div class="content"><p class="py-025"><span class ="bold">TLDR: </span>.This paper presents a multilingual COVID-19 re- lated tweet analysis method, CMTA, that uses BERT, a deep learning model for multilingual tweet misinformation detection and classifica- tion. CMTA extracts features from multilin- gual textual data, which is then categorized into specific information classes. Classifica- tion is done by a Dense-CNN model trained on tweets manually annotated into information classes (i.e., ’false’, ’partly false’, ’mislead- ing’). The paper presents an analysis of mul- tilingual tweets from February to June, show- ing the distribution type of information spread across different languages. To access the per- formance of the CMTA multilingual model, we performed a comparative analysis of 8 monolingual model and CMTA for the misin- formation detection task. The results show that our proposed CMTA model has surpassed var- ious monolingual models which consolidated the fact that through transfer learning a multi- lingual framework could be developed. </p></div>
+              </li>		    
+		   		    
+                <div class="collapsible">
+                  <p><span class="bold"> Automated Medical Assistance: Attention Based Consultation System </span></p>
+                    <button class="collapsible-btn">[TLDR]</button>
+                  <p><span class="bold">Raj Ratn Pranesh</span>, Mehrdad Farokhenajd, Ambesh Shekhar, Genoveva Vargas-Solar
+                    <br>ADBIS 2021: 25th European Conference on Advances in Databases and Information Systems<br>
+                    <a href="">Paper</a>
+                    <!--<span>||</span><a href="">Dataset</a>-->
+                  </p></div>
+                <div class="content"><p class="py-025"><span class ="bold"> </p></div>
+              </li>		    
+		    
               <li>
                 <div class="collapsible">
                   <p><span class="bold"> A Conglomerate of Multiple OCR Table Detection and Extraction </span></p>
@@ -134,7 +171,7 @@
                     <a href="https://drive.google.com/file/d/1_hAzSBimEjbZNGGp4PRoW0jbW207kr9A/view">Paper</a>
                     <!--<span>||</span><a href="">Dataset</a>-->
                   </p></div>
-                <div class="content"><p class="py-025"><span class ="bold">TLDR: </span>. We designed three
+                <div class="content"><p class="py-025"><span class ="bold">TLDR: </span> We designed three
 				transformers based encoder-decoder model, namely, BERT, GPT2, and BART and
 				trained them on large the dialogue dataset for text generation. We performed a
 				comparative study of the models and in our analysis, we found that the BART
